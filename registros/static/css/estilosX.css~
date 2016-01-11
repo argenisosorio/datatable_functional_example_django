@@ -1,0 +1,47 @@
+body{
+/* */
+background:url("./Img/background.png") 100% ;
+
+}
+zz#completo{
+	background:url("./Img/blanco.png") 100%;
+	width:1005px;
+	height: 600px;
+	margin: 0 auto;
+	/* border:ridge 1px; */	
+}
+
+#cabecera{
+	background:url("./Img/header.png") 100%;
+	margin: 2px 2px 2px 2px;	
+	height: 55px;
+	width:1000px;
+	float: left;
+	/*border:ridge 1px; */ 
+}
+
+#cabecera2{
+	background:url("./Img/BanAu.jpg") 100%;
+	margin: 2px 2px 2px 2px;		
+	height: 121px;
+	width:1000px;
+	float: left;
+	/* border:ridge 1px; */
+}
+
+#cuerpo1{
+	background:url("./Img/gris .jpg") 100%;
+	width:1000px;
+	height: 405px;
+	margin: 2px 2px 2px 2px;
+	overflow : auto;	
+	float: left;
+	/* border:ridge 1px; */
+}
+
+a{
+	text-decoration:none;
+}
+
+
+

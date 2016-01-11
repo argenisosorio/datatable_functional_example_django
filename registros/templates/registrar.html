@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}	
+	<p />
+	<b>Registrar</b> 
+	<p />
+	<form method="POST"> {% csrf_token %}
+		<p>
+		<table>{{ form }}</table>
+		<br />
+		<input type="submit" value="Guardar">
+		<input type="reset" value="Borrar">
+	</form>
+	<p>
+		<a href="{% url 'index' %}">Inicio</a> /
+		<a href="{% url 'consultar' %}">Consultar</a>
+	</p>	
+{% endblock %}
