@@ -1,25 +1,25 @@
 <html>
-	<head>
-		<title>
-			{% block titulo %}DataTable Django{% endblock %}
-		</title>
-	</head>
+    <head>
+        <title>
+            {% block titulo %}DataTable Django{% endblock %}
+        </title>
+    </head>
     <!--link rel="stylesheet" href="estilo.css" type="text/css"/-->
     <meta charset="UTF-8">
     {% load staticfiles %}
-	<script src="{% static 'js/jquery-1.11.3.min.js' %}" type="text/javascript"></script>
-	<script src="{% static 'js/jquery.dataTables.min.js' %}" type="text/javascript"></script>
-	<link href="{% static 'css/estilos.css' %}" rel="stylesheet" type="text/css" />
-	<link href="{% static 'css/jquery.dataTables.min.css' %}" rel="stylesheet" type="text/css" />
-	<script type="text/javascript">
-    	$(document).ready(function() {
-    		$('#example').DataTable();
-		} );
+    <script src="{% static 'js/jquery-1.11.3.min.js' %}" type="text/javascript"></script>
+    <script src="{% static 'js/jquery.dataTables.min.js' %}" type="text/javascript"></script>
+    <link href="{% static 'css/estilos.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'css/jquery.dataTables.min.css' %}" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $('#example').DataTable();
+    });
     </script>
 <body>
-	<div id="completo" align="center">
-	{% block content %}
-	{% endblock %}
-	</div>
+    <div id="completo" align="center">
+    {% block content %}
+    {% endblock %}
+    </div>
 </body>
 </html>
